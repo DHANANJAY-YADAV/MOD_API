@@ -61,6 +61,7 @@ namespace MOD_TEST
                 skillName = "Java",
                 totalAmountToMentor = 400,
                 commision = 100
+                //
             };
             user.UpdatePayment(4, user1);
             PaymentDtl user2 = user.GetPaymentDetails(4);
